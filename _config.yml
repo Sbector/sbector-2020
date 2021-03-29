@@ -27,6 +27,14 @@ url: "https://sbector.com" # the base hostname & protocol for your site, e.g. ht
 twitter_username: cabronlenton
 github_username:  Sbector
 
+# Fields that minima uses, but are not default.
+# Author is the default for posts, the Atom feed &, is used in the footer.
+author: c-lofán
+instagram_username: saulbector
+
+# Here I'm gonna put the link to my actual favorite song
+favsong: https://www.youtube.com/watch?v=L3HQMbQAWRc
+
 # Build settings
 # remove minima theme because now is a regular theme.
 # theme: minima
