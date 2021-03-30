@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Hola"
+title: "Inconspicuo"
 date:   2021-03-28 22:53:11 -0500
-categories: jekyll update
+category: proyectos
 ---
 
 Hola! este es mi primer post.
