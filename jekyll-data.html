@@ -21,8 +21,32 @@
       {%- if page.title -%}
         <p>Page title: {{ page.title }}</p>
       {%- endif -%}
-
     {%- endfor -%}
+
+    <h2>_config.yml</h2>
+    <p>Twitter username: {{ site.twitter_username }}</p>
+
+    <h2>Latest post</h2>
+      {%- for post in site.posts limit:1 -%}
+        <p>{{ post.title }}</p>
+      {%- endfor -%}
+
+    <h2>Alll other posts</h2>
+      {%- for post in site.posts offset:1 limit:2 -%}
+        <p>{{ post.title }}</p>
+      {%- endfor -%}
+
+    <h2>Recursos de processing</h2>
+      {% assign p5Posts = site.posts | where: "language", "p5" %}
+      {%- for post in p5Posts -%}
+        <p>{{ post.title }}</p>
+      {%- endfor -%}
+
+    <h2>Recursos de python</h2>
+      {% assign pyPosts = site.posts | where: "language", "python" %}
+      {%- for post in pyPosts -%}
+        <p>{{ post.title }}</p>
+      {%- endfor -%}
 
   </body>
 </html>
