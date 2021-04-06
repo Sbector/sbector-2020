@@ -1,0 +1,29 @@
+items:
+  - title: Home
+    url: /index.html
+    so: 1
+    display: true
+    subitems: []
+  - title: about
+    url: /about.html
+    so: 3
+    display: true
+    subitems:
+      - title: Contact me
+        url: /contact.html
+        so: 2
+        display: true
+      - title: map
+        url: /map.html
+        so: 1
+        display: true
+  - title: proyectos
+    url: /proyectos.html
+    so: 2
+    display: true
+    subitems: []
+  - title: recursos
+    url: /recursos.html
+    so: 1.5
+    display: false
+    subitems: []

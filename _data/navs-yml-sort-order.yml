@@ -1,0 +1,18 @@
+items:
+  - title: Home
+    url: /index.html
+    so: 1
+    subitems: []
+  - title: about
+    url: /about.html
+    so: 3
+    subitems:
+      - title: Contact me
+        url: /contact.html
+        so: 2
+      - title: map
+        url: /map.html
+        so: 1
+  - title: proyectos
+    url: /proyectos.html
+    so: 2
